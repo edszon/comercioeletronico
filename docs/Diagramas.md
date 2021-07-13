@@ -10,8 +10,8 @@
 
 ## 1. Diagrama de casos de uso 
 
-![](https://github.com/PI-InfoWeb-CNAT/comercioeletronico/tree/main/docs/Diagrama_Casos_de_Uso.png)
+![Casos de Uso](https://github.com/PI-InfoWeb-CNAT/comercioeletronico/tree/main/docs/Diagrama_Casos_de_Uso.png?raw=true)
 
 ## 2. Diagrama de entidades e relacionamentos
 
-![](https://github.com/PI-InfoWeb-CNAT/comercioeletronico/tree/main/docs/Diagrama_Entidades_e_Relacionamentos.png)
+![Entidades e Relacionamentos](https://github.com/PI-InfoWeb-CNAT/comercioeletronico/tree/main/docs/Diagrama_Entidades_e_Relacionamentos.png?raw=true)
