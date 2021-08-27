@@ -1,3 +1,6 @@
+27/08
+Preparar o documento de visão com os casos de uso discutidos
+
 13/08
 Discutir o e-commerce que voces desejam fazer
 Identificar novas funcionalidade a serem desenvolvidas
