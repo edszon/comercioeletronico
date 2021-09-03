@@ -18,22 +18,22 @@ Este projeto tem objetivo de desenvolver um site que implemente as funcionalidad
 | **_O problema_**    | O lojista que atua no comércio convencional deseja resolver o problema de volume reduzido de vendas de seus produtos agravado pela situação de Pandemia  |
 | **_afetando_**      | a capacidade de venda da loja                      |
 | **_cujo impacto é_**| expansão ou até capacidade de existência da loja                                    |
-| **_uma boa solução seria_** | Realizar vendas via internet e gerenciar o processo de entrega dos produtos |
+| **_uma boa solução seria_** | Realizar vendas via internet e gerenciar o processo de entrega dos produtos, além de disponibilizar descontos para eles. |
 | | |
 
 ## 3. Descrição dos usuários
 
 | Nome | Descrição | Responsabilidades |
 |:- |:- |:- |
-| Administrador  | Gestor da Loja; Usuário responsável pelos processos que irão permitir que os clientes adquiram os produtos com uso no site de vendas e acompanhem o processo de entrega dos pedidos realizados | Cadastrar os produtos e seus preços de venda; Cadastrar grupo de produtos e fabricantes; Disponibilizar ou bloquear a apresentação do produto no site de venda; Verificar as vendas realizados no período que ainda não foram remetidas aos clientes; Registra informações de envio dos pedidos aos clientes; Registra informação de controle de pagamento de pedidos|
-| Usuário   | Usuário que visualiza o site; O usuário deve ter a possibilidade de obter informações acerca dos produtos vendidos e seus preços, sem a necessidade de registrar suas informações cadastrais no site | O usuário deve poder consultar os produtos por várias opções de  busca de forma a facilitar que ele encontre os produtos desejados; Deverá ser possível também montar uma cesta de compras com os itens que deseja adquirir; Caso deseje, poderá criar um registro de usuário com senha de forma a possibilitar o acesso a área de realização de pedidos de produtos e acompanhamento de entrega |
-| Cliente | Usuário cadastrado; O usuário, após realizar seu cadastro no site, poderá realizar compras | Após a realização a inclusão de dados cadastrais tais como login, senha e endereço, o usuário passa a ser visto como cliente e poderá registrar seus pedidos. Os pedidos poderão ser compostos por um ou mais produtos e deverão incluir suas respectivas quantidades adquiridas. O valor total do pedido deve ser apresentado. O cliente deve ter acesso às seguintes funcionalidades no site: Alterar seus dados cadastrais informando novo endereço; Visualizar seu histórico de pedidos e observar a situação dos mesmos; Visualizar a situação da entrega dos pedidos; Cancelar o pedido; Avaliar os produtos adquiridos|
+| Administrador  | Gestor da Loja; Usuário responsável pelos processos que irão permitir que os clientes adquiram os produtos com uso no site de vendas e acompanhem o processo de entrega dos pedidos realizados | Cadastrar os produtos e seus preços de venda; Cadastrar grupo de produtos e fabricantes; Disponibilizar ou bloquear a apresentação do produto no site de venda; Verificar as vendas realizados no período que ainda não foram remetidas aos clientes; Registra informações de envio dos pedidos aos clientes; Registra informação de controle de pagamento de pedidos; Registra cupons de desconto; Aplica promoções aos produtos disponíveis|
+| Usuário   | Usuário que visualiza o site; O usuário deve ter a possibilidade de obter informações acerca dos produtos vendidos, seus preços, e de consultar a disponibilidade dos cupons de desconto, sem a necessidade de registrar suas informações cadastrais no site | O usuário deve poder consultar os produtos por várias opções de  busca de forma a facilitar que ele encontre os produtos desejados; Deverá ser possível também montar uma cesta de compras com os itens que deseja adquirir; Caso deseje, poderá criar um registro de usuário com senha de forma a possibilitar o acesso a área de realização de pedidos de produtos e acompanhamento de entrega |
+| Cliente | Usuário cadastrado; O usuário, após realizar seu cadastro no site, poderá realizar compras | Após a realização a inclusão de dados cadastrais tais como login, senha e endereço, o usuário passa a ser visto como cliente e poderá registrar seus pedidos. Os pedidos poderão ser compostos por um ou mais produtos e deverão incluir suas respectivas quantidades adquiridas. O valor total do pedido deve ser apresentado. O cliente deve ter acesso às seguintes funcionalidades no site: Alterar seus dados cadastrais informando novo endereço; Visualizar seu histórico de pedidos e observar a situação dos mesmos; Visualizar a situação da entrega dos pedidos; Cancelar o pedido; Avaliar os produtos adquiridos;  Aplicar os cupons de desconto na compra de produtos; Adicionar produtos à sua lista de desejo; Escolher entre receber o produto em casa ou buscar em uma loja física|
 
 ## 4. Descrição do ambiente dos usuários
  
 O comércio eletrônico tem dois tipos de usuários. O tipo administrador representa o gestor da loja e seus colaboradores e o tipo Cliente que representa o cliente, seja ele anônimo ou já cadastrado. 
 
-O administrador acessará o site a partir do ambiente físico da loja e fará a configuração dos produtos a serem vendidos e realizará a logística de atendimento dos pedidos coletados pelo site, registrando a informação de situação de envio dos pedidos. Nesse processo, os produtos que forem identificados fisicamente sem estoque deverão ter sua disponibilidade para venda bloqueada.
+O administrador acessará o site a partir do ambiente físico da loja e fará a configuração dos produtos a serem vendidos, registrará cupons de desconto e aplicará promoções individuais para os produtos, caso aplicável, e realizará a logística de atendimento dos pedidos coletados pelo site, registrando a informação de situação de envio dos pedidos. Nesse processo, os produtos que forem identificados fisicamente sem estoque deverão ter sua disponibilidade para venda bloqueada.
 
 O usuário cliente irá acessar o site utilizando  um computador ou celular e realizará a visualização dos produtos vendidos na loja e realizará a compra, caso deseje. Neste caso não há muitas restrições quanto ao ambiente pois ele poderá fazer os pedidos de qualquer local que tenha conexão com internet.
 
@@ -42,11 +42,11 @@ O usuário cliente irá acessar o site utilizando  um computador ou celular e re
 
 Considerando o pronto de vista do lojista, administrador do site, sua principal necessidade é aumentar o volume de vendas de sua loja incorporando em seu negócio a possibilidade de realização de vendas via internet. 
 
-Considerando o pronto de vista do cliente, ele deseja ter acesso a um site com interface amigável que permita obter informações sobre os produtos comercializados e, caso identifique que estes atendam às suas necessidades, ele possa montar sua relação de compra confirmando a aquisição. Após essa etapa ele desejará visualizar o processo de entrega dos produtos adquiridos.
+Considerando o pronto de vista do cliente, ele deseja ter acesso a um site com interface amigável que permita obter informações sobre os produtos comercializados e, caso identifique que estes atendam às suas necessidades, ele possa montar sua relação de compra confirmando a aquisição. Após essa etapa ele escolherá entre receber o produto em casa ou buscá-lo em uma loja física, e desejará visualizar o processo de entrega dos produtos adquiridos.
 
 ## 6. Alternativas concorrentes
 
-Uma alternativa ao comércio eletrônico desenvolvido é a lojas Americanas, que apresenta pesquisa por meio de nome ou categoria do produto, tem o sistema de carrinho de compras, que permite adicionar os produtos selecionados, deixando o pagamento somente para o final quando o cliente tiver selecionado todos os produtos desejados. Também tem o sistema de login, o qual o usuário se cadastra, o que facilita as próximas compras. Além disso em cada produto tem sua descrição, produto similares ao selecionado e uma seção destinada à avaliação dos consumidores. 
+Uma alternativa ao comércio eletrônico desenvolvido é a loja Netshoes, que apresenta pesquisa por meio de nome ou categoria do produto, tem o sistema de carrinho de compras, que permite adicionar os produtos selecionados, deixando o pagamento somente para o final quando o cliente tiver selecionado todos os produtos desejados. Também tem o sistema de login, o qual o usuário se cadastra, o que facilita as próximas compras. Além disso em cada produto tem sua descrição, produto similares ao selecionado e uma seção destinada à avaliação dos consumidores. 
 
 ## 7.	Visão geral do produto
 
@@ -71,7 +71,13 @@ Esse projeto consiste em um site voltado para vendas de produtos que pretende fu
 | F13	| Verificar as compras realizadas	| Os clientes podem verificar seu histórico de compra na loja.
 | F14	| Verificar o andamento do pedido	| Os clientes podem acompanhar o andamento da entrega dos pedidos realizados.
 | F15	| Avaliar o Produto	| Os clientes podem avaliar os produtos realizando um comentário e atribuindo uma nota
-| F16 	| Revisar dados cadastrais	| Os clientes podem alterar seus dados cadastrais permitindo assim que façam, por exemplo, alteração do endereço de entrega
+| F16	| Registrar cupons de desconto	| o administrador registra um cupom de desconto que pode ser aplicável a um certo tipo de produto, ou de forma geral. Os cupons são divulgados externamente, por meio de patrocínios/parcerias, nas suas respectivas redes sociais ou em forma de anúncio digital.
+| F17	| Aplicar cupons de desconto	| o cliente, quando autenticado, poderá utilizar o cupom de desconto na compra de um produto, uma única vez, caso o produto seja da categoria que o cupom se aplica.
+| F18	| Adicionar produtos à lista de desejos	| O cliente, quando autenticado, poderá adicionar produtos à sua lista de desejos, entrando na página do produto, e clicando o ícone de adição. O mesmo receberá, por meio de uma notificação, na inbox de notificações do site, updates sobre a situação atual do produto, como por exemplo sua disponibilidade, ou se o produto em questão entrou em promoção.
+| F19	| Escolher entre entrega em residência ou retirada em loja física	| O cliente, quando autenticado, e realizando uma compra, poderá escolher se seu produto será entregado em uma loja física ou em sua casa.
+| F20	| Inbox de notificação	| O cliente, quando autenticado, receberá atualizações em um inbox de notificações, apresentado como uma pequena aba, acessável pelo menu do site, que se sobrepõe sobre o mesmo. As atualizações podem ser diversas, variando sobre mudanças em produtos desejados, ou no estado de entrega de um produto encomendado.
+| F21	| Gerenciar os produtos na lista de desejos	| O cliente, caso decida remover um produto da sua lista de desejos, ou simplesmente checar quais produtos ele adicionou na lista, pode consultar uma página onde verá todos os produtos que estão presentes nela, com a opção de removê-los. A pagina é acessável por meio de um botão no menu do site.
+| F22 	| Revisar dados cadastrais	| Os clientes podem alterar seus dados cadastrais permitindo assim que façam, por exemplo, alteração do endereço de entrega.
 | | | | 
 
 ## 9.	Requisitos não-funcionais
